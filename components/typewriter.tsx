@@ -4,11 +4,11 @@ import React, { useState, useEffect } from "react"
 
 const textsWithIcons = [
   {
-    text: "Create a task to file taxes March 30th",
+    text: "Create a task to file taxes March 30th assign it to Vela",
     icon: "https://img.icons8.com/?size=100&id=MFaX6nJlDgiU&format=png&color=000000",
   },
   {
-    text: "Cancel all my work meetings on Wednesday ",
+    text: "Cancel all my work meetings on Wednesday  ",
     icon: "https://img.icons8.com/?size=100&id=WKF3bm1munsk&format=png&color=000000",
   },
   {
@@ -53,12 +53,12 @@ export function TypewriterWithSyncedIcon() {
   }, [isTyping, typedText, currentTextIndex, currentLine.text])
 
   return (
-    <div className="flex items-center justify-start gap-4 w-full" role="region" aria-live="polite">
+    <div className="flex items-center justify-start gap-4 w-11/12 h-auto py-2 bg-white/[0.05] pl-6 rounded-lg" role="region" aria-live="polite">
       <img
         src={currentLine.icon || "/placeholder.svg"}
         alt=""
         role="presentation"
-        className="w-[40px] h-[40px] flex-shrink-0"
+        className="w-[50px] h-[50px] flex-shrink-0"
       />
       <div className="overflow-hidden text-base md:text-lg lg:text-xl text-white flex-grow">
         {typedText}
@@ -78,4 +78,3 @@ export function TypewriterWithSyncedIcon() {
     </div>
   )
 }
-
