@@ -3,17 +3,18 @@
 import React, { useState, useEffect } from "react"
 
 const textsWithIcons = [
+  
   {
-    text: "Create a task to file taxes March 30th assign it to Vela",
-    icon: "https://img.icons8.com/?size=100&id=MFaX6nJlDgiU&format=png&color=000000",
-  },
-  {
-    text: "Cancel all my work meetings on Wednesday  ",
+    text: "Cancel all my meetings between 2-4 on Wednesday",
     icon: "https://img.icons8.com/?size=100&id=WKF3bm1munsk&format=png&color=000000",
   },
   {
-    text: "Add Furqan from finc to the investor sheet",
+    text: "Add Furqan from founders Inc to the investor sheet",
     icon: "https://img.icons8.com/?size=100&id=30461&format=png&color=000000",
+  },
+  {
+    text: "Create a task to file taxes March 30th assign it to Vela",
+    icon: "https://img.icons8.com/?size=100&id=MFaX6nJlDgiU&format=png&color=000000",
   },
 ]
 
