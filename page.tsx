@@ -26,9 +26,9 @@ export default function Home() {
             <Button
               variant="outline"
               className="px-4 py-2 text-sm md:text-base bg-transparent border border-white/20 text-white/40 hover:bg-white/20 hover:text-white transition-all duration-300"
-              onClick={() => window.open("https://ebaad.notion.site/500k-chicken-nuggets-round-18783d8215c480479216f879fb26a3b3?pvs=4", "_blank")}
+              onClick={() => window.open("https://ebaad.notion.site/talk-to-apps-17d83d8215c480dbbe50f359416fb4e4", "_blank")}
             >
-              Invest
+              todoist beta
             </Button>
           
           </div>
